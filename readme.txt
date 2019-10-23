@@ -1,2 +1,1 @@
-sdsadsdsasdddsdadsit is a free dsdjskdjljadjksaljdajskdjlajsdlakjdalks
-ftware
+Git is a software
