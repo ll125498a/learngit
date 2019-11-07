@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mailTemplateGroup>
+  <mailTemplate name="DownloadComplete">
+    <subject>Daily Results of Label for today has completed</subject>
+    <body>
+      <html>
+        <head>
+          <style type="text/css">
+            p {
+            line-height: 25px;
+            font-size: 11px;
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            }
+          </style>
+        </head>
+        <body>
+          <p>
+            The results of Label for today has completed!
+          </p>
+          DownloadLinkList
+          <p>XiaoIce Label Tool</p>
+        </body>
+      </html>
+    </body>
+  </mailTemplate>
+  <mailTemplate name="UrgentTaskGeneration">
+    <subject>An urgent task '{Taskname}' was just created by {Someone}</subject>
+    <body>
+      <html>
+        <head>
+          <style type="text/css">
+            p {
+            line-height: 25px;
+            font-size: 16px;
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            }
+            table {
+            width:700px;
+            border-collapse: collapse;
+            }
+            table th{
+            background-color: rgb(244,176,131);
+            width:200px;
+            }
+            table td,table th{
+            padding:0 5px;
+            height:25px;
+            line-height:25px;
+            border: 1px solid #000;
+            }
+          </style>
+        </head>
+        <body>
+          <p>Hi Label Tool Admins,</p>
+          <p>The email was send to notified you that:</p>
+          <p>{Someone} just created an urgent task :'{Taskname}'</p>
+          <p>XiaoIce Label Tool</p>
+        </body>
+      </html>
+
+    </body>
+  </mailTemplate>
+  <mailTemplate name="FreshCommentTaskGeneration">
+    <subject>A Fresh comment task '{Taskname}' was just created</subject>
+    <body>
+      <html>
+        <head>
+          <style type="text/css">
+            p {
+            line-height: 25px;
+            font-size: 16px;
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            }
+            table {
+            width:700px;
+            border-collapse: collapse;
+            }
+            table th{
+            background-color: rgb(244,176,131);
+            width:200px;
+            }
+            table td,table th{
+            padding:0 5px;
+            height:25px;
+            line-height:25px;
+            border: 1px solid #000;
+            }
+          </style>
+        </head>
+        <body>
+          <p>Hi,</p>
+          <p>The email was send to notified you that:</p>
+          <p>
+            A new fresh comment task <a href="{TaskInstanceId}">{Taskname}</a> has been just created and assign to you
+          </p>
+          <p>XiaoIce Label Tool</p>
+        </body>
+      </html>
+    </body>
+  </mailTemplate>
+  <mailTemplate name="FreshCommentTaskComplete">
+    <subject>A Fresh comment task '{Taskname}' has completed</subject>
+    <body>
+      <html>
+        <head>
+          <style type="text/css">
+            p {
+            line-height: 25px;
+            font-size: 16px;
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            }
+            table {
+            width:700px;
+            border-collapse: collapse;
+            }
+            table th{
+            background-color: rgb(244,176,131);
+            width:200px;
+            }
+            table td,table th{
+            padding:0 5px;
+            height:25px;
+            line-height:25px;
+            border: 1px solid #000;
+            }
+          </style>
+        </head>
+        <body>
+          <p>Hi,</p>
+          <p>The email was send to notified you that:</p>
+          <p>
+            A new fresh comment task <a href="{TaskInstanceId}">{Taskname}</a> has completed
+          </p>
+          <p>XiaoIce Label Tool</p>
+        </body>
+      </html>
+    </body>
+  </mailTemplate>
+
+  <mailTemplate name="TasksReady">
+    <subject>These autoTasks is ready now</subject>
+    <body>
+      <html>
+        <head>
+          <style type="text/css">
+            p {
+            line-height: 25px;
+            font-size: 13px;
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            }
+            span {
+            font-weight:bold;
+            }
+            table {
+            width:100%;
+            border-collapse: collapse;
+            }
+            table th{
+            background-color: rgb(207, 232, 191)
+            }
+            table td,table th{
+            padding:0 5px;
+            height:25px;
+            font-size: 13px;
+            line-height:25px;
+            border: 1px solid #000;
+            }
+          </style>
+        </head>
+        <body>
+          <p>Hi everyone,</p>
+          <p>The email was send to notified you these tasks has been ready.</p>
+          <table>
+            <tr>
+              <th>Type</th>
+              <th>Task Name</th>
+              <th>Label Link</th>
+            </tr>
+            TableBody
+          </table>
+          <p>XiaoIce Label Tool</p>
+        </body>
+      </html>
+    </body>
+  </mailTemplate>
+  <mailTemplate name="TaskComplete">
+    <subject>The task 'Taskname' has completed</subject>
+    <body>
+      <html>
+        <head>
+          <style type="text/css">
+            p {
+            line-height: 25px;
+            font-size: 16px;
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            }
+            table {
+            width:700px;
+            border-collapse: collapse;
+            }
+            table th{
+            background-color: rgb(244,176,131);
+            width:200px;
+            }
+            table td,table th{
+            padding:0 5px;
+            height:25px;
+            line-height:25px;
+            border: 1px solid #000;
+            }
+          </style>
+        </head>
+        <body>
+          <p>Hi,</p>
+          <p>The email was send to notified you that:</p>
+          <p>
+            The TaskType task Taskname (ID : TaskInstanceId) has completed!
+          </p>
+          <p>Total Time Put On The Task: TimeConsumedSum.</p>
+          <table>
+            <tr>
+              <th>User</th>
+              <th>Labled Items</th>
+              <th>Total Time Consumed</th>
+              <th>Efficiency (seconds/Item)</th>
+            </tr>
+            TableBody
+          </table>
+          <p>You can download result file from: DownloadLink</p>
+          <p>XiaoIce Label Tool</p>
+        </body>
+      </html>
+    </body>
+  </mailTemplate>
+  <mailTemplate name="AutoTaskQueryFailed">
+    <subject>The AutoTask 'AutoTaskName' failed for too many failed query</subject>
+    <body>
+      <html>
+        <head>
+          <style type="text/css">
+            p {
+            line-height: 25px;
+            font-size: 16px;
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            }
+            table {
+            width:700px;
+            border-collapse: collapse;
+            }
+            table th{
+            background-color: rgb(244,176,131);
+            width:200px;
+            }
+            table td,table th{
+            padding:0 5px;
+            height:25px;
+            line-height:25px;
+            border: 1px solid #000;
+            }
+          </style>
+        </head>
+        <body>
+          <p>Hi,</p>
+          <p>The email was send to notified you that:</p>
+          <p>
+            The query of AutoTask AutoTaskName (ID : AutoTaskId) failed for too many failed items.
+          </p>
+          <p>Error Percentage: AutoTaskFailedRatio</p>
+          <p>This AutoTask will be re-queried in 1 hour, if you see such email too many times, please contact XiaoIce vendor devs for help.</p>
+          <p>XiaoIce Label Tool</p>
+        </body>
+      </html>
+    </body>
+  </mailTemplate>
+  <mailTemplate name="Question-AnswerTaskComplete">
+    <subject>The task 'InstanceName' has completed</subject>
+    <body>
+      <html>
+        <head>
+          <style type="text/css">
+            p {
+            line-height: 25px;
+            font-size: 16px;
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            }
+            span {
+              font-weight:bold;
+            }
+          </style>
+        </head>
+        <body>
+          <p>Hi everyone,</p>
+          <p>The email was send to notified you that:</p>
+          <p>
+            The <span>autoTaskName</span> task <span>InstanceName</span> (ID : TaskInstanceId) has completed!
+          </p>
+          <p>You can label this task from: SeverPathJob/Urgency?type=Universal . </p>
+          <p>You can download result file from: DownloadLink </p>
+          <p>(The result file will be empty if nobody labels this task.)</p>
+          <p>XiaoIce Label Tool</p>
+        </body>
+      </html>
+    </body>
+  </mailTemplate>
+  <mailTemplate name="optionsTestTaskComplete">
+    <subject>The task 'InstanceName' has completed</subject>
+    <body>
+      <html>
+        <head>
+          <style type="text/css">
+            p {
+            line-height: 25px;
+            font-size: 16px;
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            }
+            span {
+              font-weight:bold;
+            }
+          </style>
+        </head>
+        <body>
+          <p>Hi everyone,</p>
+          <p>The email was send to notified you that:</p>
+          <p>
+            The <span>autoTaskName</span> task <span>InstanceName</span> (ID : TaskInstanceId) has completed!
+          </p>
+          <p>You can label this task from: SeverPathJob/Urgency?type=Universal . </p>
+          <p>You can download result file from: DownloadLink </p>
+          <p>(The result file will be empty if nobody labels this task.)</p>
+          <p>XiaoIce Label Tool</p>
+        </body>
+      </html>
+    </body>
+  </mailTemplate>
+  <mailTemplate name="ImageCommentMeasurement_20160224_1K_3OverlapTaskComplete">
+    <subject>The task 'InstanceName' has completed</subject>
+    <body>
+      <html>
+        <head>
+          <style type="text/css">
+            p {
+            line-height: 25px;
+            font-size: 16px;
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            }
+            span {
+            font-weight:bold;
+            }
+          </style>
+        </head>
+        <body>
+          <p>Hi everyone,</p>
+          <p>The email was send to notified you that:</p>
+          <p>
+            The <span>autoTaskName</span> task <span>InstanceName</span> (ID : TaskInstanceId) has completed!
+          </p>
+          <p>You can label this task from: SeverPathJob/Urgency?type=ImageOneCommentV2 . </p>
+          <p>You can download result file from: DownloadLink </p>
+          <p>(The result file will be empty if nobody labels this task.)</p>
+          <p>XiaoIce Label Tool</p>
+        </body>
+      </html>
+    </body>
+  </mailTemplate>
+  <mailTemplate name="Tier1Version1TaskComplete">
+    <subject>The task 'InstanceName' has completed</subject>
+    <body>
+      <html>
+        <head>
+          <style type="text/css">
+            p {
+            line-height: 25px;
+            font-size: 16px;
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            }
+            span {
+            font-weight:bold;
+            }
+          </style>
+        </head>
+        <body>
+          <p>Hi everyone,</p>
+          <p>The email was send to notified you that:</p>
+          <p>
+            The <span>autoTaskName</span> task <span>InstanceName</span> (ID : TaskInstanceId) has completed!
+          </p>
+          <p>You can label this task from: SeverPathJob/Urgency?type=Universal . </p>
+          <p>You can download result file from: DownloadLink </p>
+          <p>(The result file will be empty if nobody labels this task.)</p>
+          <p>XiaoIce Label Tool</p>
+        </body>
+      </html>
+    </body>
+  </mailTemplate>
+  <mailTemplate name="Tier1Version4TaskComplete">
+    <subject>The task 'InstanceName' has completed</subject>
+    <body>
+      <html>
+        <head>
+          <style type="text/css">
+            p {
+            line-height: 25px;
+            font-size: 16px;
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            }
+            span {
+            font-weight:bold;
+            }
+          </style>
+        </head>
+        <body>
+          <p>Hi everyone,</p>
+          <p>The email was send to notified you that:</p>
+          <p>
+            The <span>autoTaskName</span> task <span>InstanceName</span> (ID : TaskInstanceId) has completed!
+          </p>
+          <p>You can label this task from: SeverPathJob/Urgency?type=Universal . </p>
+          <p>You can download result file from: DownloadLink </p>
+          <p>(The result file will be empty if nobody labels this task.)</p>
+          <p>XiaoIce Label Tool</p>
+        </body>
+      </html>
+    </body>
+  </mailTemplate>
+  <mailTemplate name="Tier2TaskComplete">
+    <subject>The task 'InstanceName' has completed</subject>
+    <body>
+      <html>
+        <head>
+          <style type="text/css">
+            p {
+            line-height: 25px;
+            font-size: 16px;
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            }
+            span {
+            font-weight:bold;
+            }
+          </style>
+        </head>
+        <body>
+          <p>Hi everyone,</p>
+          <p>The email was send to notified you that:</p>
+          <p>
+            The <span>autoTaskName</span> task <span>InstanceName</span> (ID : TaskInstanceId) has completed!
+          </p>
+          <p>You can label this task from: SeverPathJob/Urgency?type=Universal . </p>
+          <p>You can download result file from: DownloadLink </p>
+          <p>(The result file will be empty if nobody labels this task.)</p>
+          <p>XiaoIce Label Tool</p>
+        </body>
+      </html>
+    </body>
+  </mailTemplate>
+
+
+</mailTemplateGroup>
+
+
+
